@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ResumeForgeStudio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'front.css'%}">
+
+
+</head>
+
+<body>
+    {% load static %}
+    <nav class="navbar bg-white">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="brand-and-toggler">
+                    <a href="{% url 'frontpage' %}" class="navbar-brand">
+                        <img src="{% static 'resumeimage.jpeg' %}" alt="" class="navbar-brand-icon">
+                        <span class="navbar-brand-text">ResumeForgeStudio <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header bg-bright" id="header">
+        <div class="container">
+            <div class="header-content text-center">
+                <h6 class="text-uppercase text-blue-dark fs-14 fw-6 ls-1">Optimized resumes tailored for Applicant Tracking Systems.
+                </h6>
+                <h1 class="lg-title">Tailor each resume for specific job applications.</h1>
+                <p class="text-dark fs-18">A resume builder is an online tool that helps users create professional resumes by providing templates and guidance for formatting and organizing relevant information, enhancing job application prospects.
+                </p>
+                
+            </div>
+        </div>
+    </header>
+
+    <div class="section-one">
+        <div class="container">
+            <div class="section-one-content">
+                <div class="section-one-l">
+                    <img src="{% static 'ats.jpg' %}">
+                </div>
+                <div class="section-one-r text-center">
+                    <h2 class="lg-title"></h2>
+                    <p class="text">Revolutionize your resume with CSEProResumeForge.com, offering a vast array of free,
+                        ATS-friendly templates for a professional edge in your job search. Elevate your career
+                        effortlessly with our user-friendly interface and standout designs.</p>
+                    <div class="btn-group">
+                        <a href="{% url 'login' %}" class="btn btn-primary text-uppercase">login</a>
+                        <a href="{% url 'signup' %}" class="btn btn-secondary text-uppercase">signup</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="footer-content text-center">
+                <p class="fs-15">&copy;Copyright 2024. All Rights Reserved - <span>ResumeForgeStudio</span></p>
+            </div>
+        </div>
+    </footer>
+    {% load static %}
+    <script src="{% static 'app.js' %}"></script>
+    <script src="{% static 'script.js' %}"></script>
+
+
+
+</body>
+
+</html>

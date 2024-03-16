@@ -1,0 +1,20 @@
+<!-- reset_password.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Reset Password</title>
+    <link rel="stylesheet" href="{% static 'fp.css' %}">
+    <script src="{% static 'rp.js' %}"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Reset Password</h2>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Save New Password</button>
+        </form>
+    </div>
+</body>
+</html>
