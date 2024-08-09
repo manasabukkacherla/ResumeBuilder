@@ -1,4 +1,4 @@
-```markdown
+
 # ResumeBuilder Project
 
 This project is a Resume Builder web application developed using HTML, CSS, and JavaScript for the frontend and Django as the backend framework. It allows users to create, edit, and manage their resumes online.
@@ -76,7 +76,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
-```
-
-Replace `your-username` with your GitHub username and adjust any other placeholders as necessary. This README provides a brief overview of the project, its features, installation instructions, usage guidelines, contribution guidelines, and licensing information.
+This project is free to use.
